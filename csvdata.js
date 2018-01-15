@@ -359,7 +359,7 @@ exports.check = function check (path, usrOpts) {
 };
 
 // Code for command line usage of the "check" method
-if (!module.parent) {
+if (!module.parent && false) {
 
   var program = require('commander');
 
